@@ -1,0 +1,81 @@
+/* Start Common Styles*/
+.container{
+    margin: 0% 5%;
+}
+/* Start Common Styles*/
+
+/* Start Header Style*/
+header nav{
+    background-color: #3E1F6D;
+    padding: 15px;
+    font-size: 18px;
+    position: sticky;
+    top:0;
+    z-index: 5;
+    font-family: 'David Libre', serif;
+}
+header ul{
+    text-align: center;
+}
+header ul li{
+    display: inline;
+    padding-right: 18px;
+    
+}
+header ul li #logo{
+    float: left;
+}
+header ul li #login{
+    float: right;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+header #slider{
+    background-image: url("/images/main.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+}
+/* End Header Style*/
+
+/* Start Main Style */
+main{
+    margin: 20px 0px;
+}
+main section h1{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3E1F6D;
+    font-family: 'David Libre', serif;
+    font-weight: bold;
+}
+main section div{
+    display: inline-block;
+    width: 21.25%;
+    height: 150px;
+    border: solid 2px #3E1F6D;
+    margin: 3px 0px 20px 33px;
+}
+/* main section div img{    
+} */
+main section div h5{
+    text-align: center;
+    color: #3E1F6D;
+    font-family: 'David Libre', serif;
+    font-weight: bold;
+    padding-top: 5px;
+}
+/* End Main Style */
+
+/* Start Footer Style*/
+footer{
+    background-color: #3E1F6D;
+    font-family: 'David Libre', serif;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+/* End Footer Style*/
