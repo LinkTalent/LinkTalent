@@ -1,107 +1,225 @@
+/* Start Common Styles*/
 body{
     padding: 0%;
     margin: 0%;
 }
-/* Start Common Styles*/
 .container{
     margin: 0% 5%;
+}
+
+.icons,.sectiontitle-design {
+    box-sizing: border-box;
+}
+.sectiontitle-design .icons, .service-widgets:hover {
+    background: #ec296b;
+}
+.sectiontitle-design .icons {
+    width: 0.5rem;
+    height: 0.5rem;
+    display: inline-block;
+    position: relative;
+    transform: rotate(45deg);
+}
+hr{
+    width: 15%;
+    margin-bottom: 30px;
+    margin-top: -15px;
+} 
+.sectiontitle-design {
+    position: absolute;
+    top: 75%;
+    left: 49.5%;
+    margin-top: 83px;
 }
 /* Start Common Styles*/
 
 /* Start Header Style*/
 header nav{
-    background-color: #3E1F6D;
+    background-color:#4F81B3;
     padding: 15px;
     font-size: 18px;
-    position: sticky;
+    position: fixed;
     top:0;
-    z-index: 5;
+    z-index: 15;
     font-family: 'David Libre', serif;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+
+    display: inline-block;
+    vertical-align: middle;
+
 }
 header ul{
     text-align: center;
+    padding-top: 10px;
 }
 header ul li{
     display: inline;
     padding-right: 18px;
-    
+    margin: 10px;
 }
-header ul li #logo{
+header #logo{
     float: left;
 }
-header ul li #login{
+header #login{
     float: right;
 }
 header ul li a{
     text-decoration: none;
     color: white;
+    display: inline-block;
+}
+header ul li a:hover{
+    color: #D190E2;
+    font-weight: bold;
 }
 header #slider{
     background-image: url("/images/edu.jpg");
     background-repeat: no-repeat;
-    height: 500px;
+    height: 520px;
     background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* End Header Style*/
 
 /* Start Main Style */
 main{
-    margin: 20px 0px;
+    z-index: -1;
+    margin: 20px 0px 0px 0px;
 }
-main section h1{
+main h1{
     font-size: 20px;
     text-align: center;
-    margin-bottom: 20px;
-    color: #3E1F6D;
+    margin: 30px 0px;
+    color: #0b2f54;
     font-family: 'David Libre', serif;
     font-weight: bold;
 }
-main section div{
+main #categories div{
     display: inline-block;
     width: 21.25%;
-    height: 150px;
-    border: solid 2px #3E1F6D;
+    height: 200px;
+    border: solid 2px #e8e4e4;
     margin: 3px 0px 20px 33px;
+    border-radius: 5px;    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+} 
+main #categories div:hover{
+    box-shadow: 0 8px 16px 0 #2979FF;
 }
-/* main section div img{    
-} */
+main #categories div img{    
+    width: 100%;
+    height: 90%;
+}
 main section div h5{
     text-align: center;
-    color: #3E1F6D;
+    color: #0b2f54;
     font-family: 'David Libre', serif;
     font-weight: bold;
     padding-top: 5px;
 }
+/* End Categories Style */
+
+/* Start Our Features Style */
+main #OurFeatures{
+    margin-top: 20px;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+}
+ main #OurFeatures #image{
+    width: 50%;
+    float: left;
+}
+main #OurFeatures #features{
+    width: 50%;
+    float: left;
+}
+main #OurFeatures #features .feat{
+    padding-bottom: 25px;
+    position: relative;
+} 
+main #OurFeatures #features .feat img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+main #OurFeatures #features .feat h2{
+    font-size: 20px;
+    margin-bottom: 6px;
+    color: #0b2f54;
+    font-family: 'David Libre', serif;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    top: 1px;
+}
+main #OurFeatures #features .feat p{
+    font-size: 18px;
+    margin-bottom: 6px;
+    display: inline-block;
+    position: absolute;
+    top: 27px;
+}
+/* End Our Features Style */
 /* End Main Style */
 
 /* Start Footer Style*/
 footer{
-    background-color: #3E1F6D;
+    background-color:#4F81B3;
     font-family: 'David Libre', serif;
-    padding: 15px;
-    font-size: 20px;
+    padding: 25px;
+    font-size: 16px;
     text-align: center;
     color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 10px 4px 8px 6px #311b925c, 0 6px 20px 0 #E3F2FD;
+    
 }
+footer div{
+    display: inline-block;
+}
+.footer-left{
+    float: left;
+    width: 30%;
+    line-height: 35px;
+}
+.footer-left h3{
+    text-align: left;
+    font-weight: bold;
+}
+/* .footer-left h3 span{
+    color: #1C02EF;
+} */
+.footer-left p{
+    text-align: left;
+}
+.footer-left a{
+    text-decoration: none;
+    color: #FFF;
+}
+.footer-center{
+    width: 30%;
+    line-height: 35px;
+    display: inline-block;
+    text-align: left;
+}
+
+.footer-center p{
+    display: inline;
+}
+.footer-right{
+    float: right;
+    width: 30%;
+    text-align: left;
+    line-height: 30px;
+}
+.footer-right p span{
+    display: block;
+}
+.footer-right .footer-icons{
+    padding-top: 5px;
+}
+.footer-right .footer-icons a{
+    padding-right: 10px;
+    
+} 
 /* End Footer Style*/
-
-
-section p {
-    font-family: 'David Libre', serif;
-    
-    text-align: center;
-}
-main section img{
-  
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
-  margin-left: 30%;
-
-}
-
-
-
-    
-  
