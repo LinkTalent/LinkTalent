@@ -24,9 +24,11 @@ header ul li{
 }
 header #logo{
     float: left;
+    padding-left: 69px;
 }
 header #login{
     float: right;
+    padding-right: 75px;
 }
 header ul li a{
     text-decoration: none;
@@ -53,6 +55,7 @@ footer{
     text-align: center;
     color: white;
     box-shadow: 10px 4px 8px 6px #311b925c, 0 6px 20px 0 #E3F2FD;
+    margin-top: 110px;
     
 }
 footer div{
@@ -125,7 +128,8 @@ body{
     background: #fff;
     margin: 0 auto;
     border-radius: 4px;
-    box-shadow:2px 2px 5px pink;
+    /* box-shadow:2px 2px 5px pink; */
+    box-shadow: 0 2px 5px #2979FF;
   }
   .card:before,
   .card:after
@@ -143,11 +147,12 @@ body{
   }
   .card:hover:before{
   transform: rotate(20deg);
-  box-shadow: 0 2px 20px rgba(0,0,0,.2);
+  box-shadow: 0 8px 30px 0 pink;
+  
   }
   .card:hover:after{
   transform: rotate(10deg);
-  box-shadow: 0 2px 20px rgba(0,0,0,.2);
+  box-shadow: 0 2px 30px pink;
   }
   .card .imgBx{
   position: absolute;
@@ -193,26 +198,33 @@ body{
 
   .card .details h2 span{
   font-weight: 500;
-  font-size: 14px;
-  color:#1715A0;
+  font-size: 16px;
+  color:#3E1F6D;
   display: block;
   margin-top: 5px;
+  font-family: 'David Libre', serif;
    } 
    h1{
-    color:#1715A0;
+    color:#3E1F6D;
     text-align: center;
-    font-family: 'Merienda', cursive;
-    text-shadow: 2px 2px grey;
+    font-family: 'David Libre', serif;
+    text-shadow: 2px 2px 5px pink;
+    margin-top: 70px;
+  font-size: 30px;
+  font-weight: 200;
 }
 .about-section {
     padding: 50px;
-  
-    line-height: 1cm;
-   
-    color:#1715A0;
+  font-size:20px;
+    line-height: 1.1cm;
+
+    color:#3E1F6D;
     margin-left: 68px;
     margin-right: 56px;
-    font-family: 'Merienda', cursive;
+    font-family: 'David Libre', serif;
+  }
+  .about-section p{
+    margin: 20px;
   }
 
 
@@ -240,10 +252,10 @@ body{
     -ms-transform-origin: 0 100%;
     -o-transform-origin: 0 100%;
     transform-origin: 0 100%;
-    margin: -12px -16px 17.3px 565px;
+    margin: -14px -36px 6.3px 556px;
 }
 
 
 hr{
-  width:20%;
+  width:15%;
 }
