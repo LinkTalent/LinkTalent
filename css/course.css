@@ -1,0 +1,280 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+/* Start Common Styles*/
+.container{
+    margin: 0% 5%;
+}
+/* Start Common Styles*/
+
+/* Start Header Style*/
+header nav{
+    background-color:#4F81B3;
+    padding: 15px;
+    font-size: 18px;
+    position: fixed;
+    top:0;
+    z-index: 15;
+    font-family: 'David Libre', serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+
+    display: inline-block;
+    vertical-align: middle;
+
+}
+header ul{
+    text-align: center;
+    padding-top: 10px;
+}
+header ul li{
+    display: inline;
+    padding-right: 18px;
+    margin: 10px;
+}
+header #logo{
+    float: left;
+}
+header #login{
+    float: right;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+header ul li a:hover{
+    color: #D190E2;
+    font-weight: bold;
+}
+header #slider{
+    background-image: url("../images/onlineCourse.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+} 
+/* End Header Style*/ 
+
+/* /* Start Main Style */
+main{
+    margin: 20px 0px;
+}
+main section h1{
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #3E1F6D;
+    font-family: 'David Libre', serif;
+    font-weight: bold;
+    margin-left: 40px;
+    text-shadow: 2px 2px 5px pink;
+}
+main section p{
+    display: inline-block;
+    width: 75%;
+    height: 150px;
+    /* border: solid 2px #3E1F6D; */
+    margin: 3px 0px 20px 33px;
+    font-family: 'David Libre', serif;
+    color: #3E1F6D;
+}
+
+main section ul li{
+
+    margin: 3px 0px 20px 33px;
+    font-family: 'David Libre', serif;
+    color: #3E1F6D;
+
+}
+
+
+/* Start Footer Style */
+/* Start Footer Style*/
+footer{
+    background-color:#4F81B3;
+    font-family: 'David Libre', serif;
+    padding: 25px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    box-shadow: 10px 4px 8px 6px #311b925c, 0 6px 20px 0 #E3F2FD;
+    
+}
+footer div{
+    display: inline-block;
+}
+.footer-left{
+    float: left;
+    width: 30%;
+    line-height: 35px;
+}
+.footer-left h3{
+    text-align: left;
+    font-weight: bold;
+}
+/* .footer-left h3 span{
+    color: #1C02EF;
+} */
+.footer-left p{
+    text-align: left;
+}
+.footer-left a{
+    text-decoration: none;
+    color: #FFF;
+}
+.footer-center{
+    width: 30%;
+    line-height: 35px;
+    display: inline-block;
+    text-align: left;
+}
+
+.footer-center p{
+    display: inline;
+}
+.footer-right{
+    float: right;
+    width: 30%;
+    text-align: left;
+    line-height: 30px;
+}
+.footer-right p span{
+    display: block;
+}
+.footer-right .footer-icons{
+    padding-top: 5px;
+}
+.footer-right .footer-icons a{
+    padding-right: 10px;
+    
+} 
+/* End Footer Style*/
+
+/* End Footer Style*/
+
+
+section p {
+    font-family: 'David Libre', serif;
+    text-align: left; 
+    line-height: 30px;   
+}
+
+
+ 
+.icons,.sectiontitle-design {
+    box-sizing: border-box;
+}
+
+.sectiontitle-design .icons, .service-widgets:hover {
+    background: #ec296b;
+}
+
+.sectiontitle-design .icons {
+    width: 0.5rem;
+    height: 0.5rem;
+    display: inline-block;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+hr{
+    width: 15%;
+    margin-left: 10px;
+} 
+
+.sectiontitle-design {
+    position: absolute;
+    top: 76.3%;
+    left: 8%;
+}
+
+.icon,.sectiontitle {
+    box-sizing: border-box;
+}
+
+.sectiontitle .icon, .service-widgets:hover {
+    background: #ec296b;
+}
+
+.sectiontitle .icon {
+    width: 0.5rem;
+    height: 0.5rem;
+    display: inline-block;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+hr{
+    width: 15%;
+    margin-left: 10px;
+} 
+
+.sectiontitle{
+    position: absolute;
+    top: 107.1%;
+    left: 8%;
+}
+
+
+
+
+
+#provider {
+    float: right;
+    font-size: 15px;
+    /* text-align: left; */
+    /* margin-bottom: 20px; */
+    color: #3E1F6D;
+    font-family: 'David Libre', serif;
+    font-weight: bold;
+    margin-right: 50px;
+    margin-top: -70px;
+}
+
+#button {
+    border-radius: 4px;
+    background-color: #1ed4f4;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    float: right;
+    margin-top: 60px;
+    margin-right: 30px;
+    
+  }
+  
+  #button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  #button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  #button:hover span {
+    padding-right: 25px;
+  }
+  
+  #button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+  
