@@ -75,6 +75,9 @@ header ul li a:hover{
   border-radius: 8px;
 
 }
+.txtb:hover{
+    box-shadow: 5px 5px 5px pink;
+}
 
 .txtb label{
   display: block;
