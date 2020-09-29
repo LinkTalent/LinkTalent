@@ -1,11 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/cpanel.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Add Course</title>
 </head>
+
 <body>
+    <!--Header-->
+    <header>
+        <nav>
+            <div class="container">
+                <span id="logo"><a href="index.html"><img src="images/logo.png" height="30px" alt="logo"></a></span>
+
+                <ul>
+                    <li><a href="aboutus.html">About Us</a> </li>
+                    <li><a href="exchange.html"> Knowledge Exchange</a></li>
+                    <li><a href="internship.html">Internship</a> </li>
+                    <li><a href="talks.html">LinkTalent Talks</a> </li>
+                    <li><span id="login"> <a href="login.html">Log in</a> </span></li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <form action="" id="addcourseform">
+                <fieldset>
+                    <div class="field">
+                        <label for="CourseName">Course Name:</label>
+                        <input type="text" id="CourseName">
+                    </div>
+
+                    <div class="field">
+                        <label for="CourseCategories">Course Categories</label>
+                        <select id="CourseCategories">
+                            <option value="CS">Cs</option>
+                            <option value="IT">It</option>
+                            <option value="English">English</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label for="CourseLink">Course Link:</label>
+                        <input type="text" id="CourseLink">
+                    </div>
+
+                    <div class="field">
+                        <label for="Courseimage">Course image:</label>
+                        <input type="text" id="Courseimage">
+                    </div>
+
+                    <div class="field">
+                        <label for="Coursedesc">Course Description:</label>
+                        <input type="text" id="Coursedesc">
+                    </div>
+
+                    <div class="field">
+                        <label for="Courseskills">Course Skills:</label>
+                        <input type="text" id="Courseskills">
+                    </div>
+
+                    <div class="field">
+                        <label for="Courseprovider">Course provider:</label>
+                        <input type="text" id="Courseprovider">
+                    </div>
+
+                    <div class="field">
+                        <label>
+                            <span>Course Level</span>
+                        </label>
+                        <select id="CourseLevel">
+                            <option value="1">Beginner</option>
+                            <option value="2">Intermaidte</option>
+                            <option value="3">Advance</option>
+                        </select>
+                    </div>
+
+                    <input type="submit" id="button" value="Add Course">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
     
 </body>
+
 </html>
