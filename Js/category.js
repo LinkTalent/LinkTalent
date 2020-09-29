@@ -1,10 +1,7 @@
 'use strict';
 
 var currentcategory = CategoryArray[JSON.parse(localStorage.getItem('currentcategory'))];
-
-console.log(currentcategory);
-
-
+console.log(CategoryArray);
 var categories;
 var divccourses;
 var image;
@@ -18,6 +15,7 @@ for (var i = 0; i < currentcategory.CoursesArray.length; i++) {
 
     image = document.createElement('img');
     image.setAttribute('src', currentcategory.CoursesArray[i].image);
+    image.setAttribute('id', i);
 
     headh5 = document.createElement('h5');
     headh5.textContent = currentcategory.CoursesArray[i].name;
@@ -31,6 +29,7 @@ for (var i = 0; i < currentcategory.CoursesArray.length; i++) {
     divccourses = document.createElement('div');
     image = document.createElement('img');
     image.setAttribute('src', currentcategory.CoursesArray[i].image);
+    image.setAttribute('id', i);
 
     headh5 = document.createElement('h5');
     headh5.textContent = currentcategory.CoursesArray[i].name;
@@ -44,6 +43,7 @@ for (var i = 0; i < currentcategory.CoursesArray.length; i++) {
     divccourses = document.createElement('div');
     image = document.createElement('img');
     image.setAttribute('src', currentcategory.CoursesArray[i].image);
+    image.setAttribute('id', i);
 
     headh5 = document.createElement('h5');
     headh5.textContent = currentcategory.CoursesArray[i].name;
@@ -54,3 +54,32 @@ for (var i = 0; i < currentcategory.CoursesArray.length; i++) {
   }
 
 }
+
+
+var BasicLevel = document.getElementById('courseLevels');
+
+BasicLevel.addEventListener('click',handleClickedCat);
+
+function handleClickedCat(event){
+  event.preventDefault();
+  var eventcourseid=event.target.id;
+  console.log(eventcourseid);
+
+  if(eventcourseid ==='courseLevels' || eventcourseid==="" || eventcourseid ==='BasicLevel'||eventcourseid ==='IntermediateLevel'||eventcourseid ==='AdvancedLevel'){
+    console.log('Event Click Out side Section');
+  }else{
+
+    localStorage.setItem('currentcourse', JSON.stringify(event.target.id));
+    window.open("course.html");
+
+  }
+}
+
+
+
+
+
+
+
+
+ 

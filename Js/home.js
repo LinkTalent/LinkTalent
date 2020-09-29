@@ -31,9 +31,14 @@ categories.addEventListener('click', handleClickedCat);
 
 function handleClickedCat(event) {
   event.preventDefault();
-  console.log(event.target.id);
+  var eventcategoriesid=event.target.id;
 
+  if(eventcategoriesid ==='categories' || eventcategoriesid===""){
+    console.log('Event Click Out side Section');
 
-  localStorage.setItem('currentcategory', JSON.stringify(event.target.id));
-  window.open("category.html");
+  }else{
+    console.log('Nooooooooaccess');
+    localStorage.setItem('currentcategory', JSON.stringify(event.target.id));
+    window.open('category.html');
+  }
 }
