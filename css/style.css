@@ -181,54 +181,43 @@ footer{
     text-align: center;
     color: white;
     box-shadow: 10px 4px 8px 6px #311b925c, 0 6px 20px 0 #E3F2FD;
-    
-}
-footer div{
-    display: inline-block;
 }
 .footer-left{
     float: left;
-    width: 30%;
+    /* width: 30%; */
     line-height: 35px;
 }
-.footer-left h3{
+ .footer-left h3{
     text-align: left;
     font-weight: bold;
 }
-/* .footer-left h3 span{
-    color: #1C02EF;
-} */
 .footer-left p{
     text-align: left;
 }
 .footer-left a{
     text-decoration: none;
     color: #FFF;
-}
+}  
 .footer-center{
-    width: 30%;
-    line-height: 35px;
+    /* width: 30%; */
+    line-height: 15px;
     display: inline-block;
     text-align: left;
 }
-
 .footer-center p{
     display: inline;
 }
+.footer-center .footer-icons{
+    padding-top: 22px;
+}
+.footer-center .footer-icons a{
+    padding-right: 10px;
+    color:  #F2F5F9;
+}  
 .footer-right{
     float: right;
-    width: 30%;
+    /* width: 30%; */
     text-align: left;
     line-height: 30px;
 }
-.footer-right p span{
-    display: block;
-}
-.footer-right .footer-icons{
-    padding-top: 5px;
-}
-.footer-right .footer-icons a{
-    padding-right: 10px;
-    
-} 
 /* End Footer Style*/

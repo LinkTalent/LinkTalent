@@ -20,9 +20,9 @@ function handleSubmit(event) {
   var CourseLevel = event.target.CourseLevel.value;
 
   var newCourseAdded = new Course(CourseName, CourseCategories, CourseLink, Courseimage, Coursedesc, Courseskills, Courseprovider, CourseLevel);
-  CategoryArray[CourseCategories].addCourse(newCourseAdded);
+  CategoryArray[CourseCategories].CoursesArray.push(newCourseAdded);
 
   localStorage.setItem('CategoryArray', JSON.stringify(CategoryArray));
-  window.open("index.html");
+  window.open("index.html","_self");
   console.log(CategoryArray);
 }

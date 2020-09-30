@@ -19,7 +19,7 @@ function handleSubmit(event){
 
   if (adminarray[username]===password){
     console.log('login');
-    window.open("cpanle.html");
+    window.open("cpanle.html","_self");
 
   }else{
 
