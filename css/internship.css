@@ -1,0 +1,189 @@
+
+
+body{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+/* Start Common Styles*/
+.container{
+    margin: 0% 5%;
+}
+/* Start Common Styles*/
+
+/* Start Header Style*/
+header nav{
+    background-color:#4F81B3;
+    padding: 15px;
+    font-size: 18px;
+    position: fixed;
+    top:0;
+    z-index: 15;
+    font-family: 'David Libre', serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+
+    display: inline-block;
+    vertical-align: middle;
+
+}
+header ul{
+    text-align: center;
+    padding-top: 10px;
+}
+header ul li{
+    display: inline;
+    padding-right: 18px;
+    margin: 10px;
+}
+header #logo{
+    float: left;
+}
+header #login{
+    float: right;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+header ul li a:hover{
+    color: #D190E2;
+    font-weight: bold;
+}
+ header .slider{
+    background-image: url("../images/internship1.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+   
+}  
+/* End Header Style
+
+
+
+
+/* Start Main Style */
+main{
+    margin: 110px 0px 50px 0px;
+}
+main .publicP{
+    color: #0b2f54;
+    font-family: 'David Libre', serif;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 30px;
+    font-weight: bold;
+}
+main h1{
+    text-align: center;
+    margin: 50px 0;
+    color: #0b2f54;
+    font-family: 'David Libre', serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px pink;
+}
+main .talker{
+    display: inline-block;
+    box-shadow: 0 3px 3px 0 pink;
+    margin-bottom: 35px;
+    margin-top: 40px;
+}
+main .talker:hover{
+    box-shadow: 0 3px 3px 0 #4F81B3;
+}
+main .talker img{
+    float: left;
+    width: 50%;
+}
+main .talker div{
+    float: left;
+    width: 45%;
+    padding-left: 5%;
+}
+main .talker div h2{
+    text-align: left;
+    color: #0b2f54;
+    font-family: 'David Libre', serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+main .talker div p{
+    font-size: 18px;
+    color: #0b2f54;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+main .talker div a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #0b2f54;
+    font-size: 18px;
+}
+main .talker div a:hover{
+    border: 2px solid #4F81B3;
+    box-shadow: 0 3px 3px 0 #4F81B3;
+    padding: 10px;
+}
+
+hr {
+    width: 17%;
+    margin-top: -40px;
+}
+/*end main style */
+
+
+
+/* Start Footer Style*/
+footer{
+    background-color:#4F81B3;
+    font-family: 'David Libre', serif;
+    padding: 25px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    box-shadow: 10px 4px 8px 6px #311b925c, 0 6px 20px 0 #E3F2FD;
+}
+.footer-left{
+    float: left;
+    /* width: 30%; */
+    line-height: 35px;
+}
+ .footer-left h3{
+    text-align: left;
+    font-weight: bold;
+}
+.footer-left p{
+    text-align: left;
+}
+.footer-left a{
+    text-decoration: none;
+    color: #FFF;
+}  
+.footer-center{
+    /* width: 30%; */
+    line-height: 15px;
+    display: inline-block;
+    text-align: left;
+}
+.footer-center p{
+    display: inline;
+}
+.footer-center .footer-icons{
+    padding-top: 22px;
+}
+.footer-center .footer-icons a{
+    padding-right: 10px;
+    color:  #F2F5F9;
+}  
+.footer-right{
+    float: right;
+    /* width: 30%; */
+    text-align: left;
+    line-height: 30px;
+}
+/* End Footer Style*/

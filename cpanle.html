@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/cpanel.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Add Course</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <nav>
+            <div class="container">
+                <span id="logo"><a href="index.html"><img src="images/logo.png" height="30px" alt="logo"></a></span>
+                </li>
+                <ul>
+                    <li><a href="aboutus.html">About Us</a> </li>
+                    <li><a href="exchange.html"> Knowledge Exchange</a></li>
+                    <li><a href="internship.html">Internship</a> </li>
+                    <li><a href="events.html"> Events</a> </li>
+                    <li><span id="login"> <a href="login.html">Log in</a> </span></li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <form action="" id="addcourseform">
+                <fieldset>
+                    <div class="field">
+                        <label for="CourseName">Course Name:</label>
+                        <input type="text" id="CourseName" style="text-transform: uppercase"  required>
+                    </div>
+
+                    <div class="field">
+                        <label for="CourseCategories">Course Categories</label>
+                        <select id="CourseCategories" required>
+                            <option value="0">Computer Science</option>
+                            <option value="1">English</option>
+                            <option value="2">Grapghic Design</option>
+                            <option value="3">Bussinse & Markting</option>
+                            <option value="4">Human Resorces</option>
+                            <option value="5">Engineering</option>
+                            <option value="6">Photography</option>
+                            <option value="7">Microsoft Tools</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label for="CourseLink">Course Link:</label>
+                        <input type="url" id="CourseLink" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="Courseimage">Course image:</label>
+                        <input type="url" id="Courseimage" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="Coursedesc">Course Description:</label>
+                        <textarea id="Coursedesc"  rows="4" cols="80" required>
+
+                            </textarea>
+                    </div>
+
+                    <div class="field">
+                        <label for="Courseskills">Course Skills:</label>
+                        <input type="text" id="Courseskills" placeholder=" Sparate Skills with (,) :Skill , Skill , Skill" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="Courseprovider">Course provider:</label>
+                        <input type="text" id="Courseprovider" required>
+                    </div>
+
+                    <div class="field">
+                        <label>
+                            <span>Course Level</span>
+                        </label>
+                        <select id="CourseLevel" required>
+                            <option value="1">Beginner</option>
+                            <option value="2">Intermaidte</option>
+                            <option value="3">Advance</option>
+                        </select>
+                    </div>
+
+                    <input type="submit" id="button" value="Add Course">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+    <script src="Js/app.js"></script>
+    <script src="Js/forms.js"></script>
+</body>
+
+</html>
