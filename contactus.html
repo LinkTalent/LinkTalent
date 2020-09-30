@@ -34,23 +34,23 @@
             <h1>Contact Us</h1>
             <div class="txtb">
                 <label>Full Name :</label>
-                <input type="text" placeholder="Enter your name">
+                <input type="text" required placeholder="Enter your name">
             </div>
             <div class="txtb">
                 <label>Email:</label>
-                <input type="email" placeholder="Enter your email">
+                <input type="email" required placeholder="Enter your email">
             </div>
             <div class="txtb">
                 <label>Phone Number :</label>
-                <input type="text" placeholder="Enter your Phone Number">
+                <input type="tel" required placeholder="Enter your Phone Number">
             </div>
             <div class="txtb">
                 <label>Message:</label>
-                <textarea>
+                <textarea required>
 
                     </textarea>
             </div>
-            <input class="btn" type="submit" value="Send">
+            <input class="btn" type="submit" formnovalidate onclick="window.location.href='index.html'" value="Send">
         </div>
     </main>
 
