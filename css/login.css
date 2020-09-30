@@ -1,6 +1,8 @@
 body{
-    background: url(../images/contactusbg.jpg);
+    background: url(../images/loginbackground.png);
     background-repeat: no-repeat;
+    background-size: cover;
+   
     
 }
 header nav{

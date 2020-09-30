@@ -34,20 +34,20 @@ if(localStorage.getItem('CategoryArray')){
   CategoryArray = JSON.parse(localStorage.getItem('CategoryArray'));
 }else{
 
-  var ComputerScience = new Category('Computer Science', 'images/Tech.png');
-  var English = new Category('English', 'images/Tech.png');
-  var GrapghicDesign = new Category('Grapghic Design', 'images/GraphicDesign.svg');
-  var BussinseMarkting = new Category('Bussinse & Markting', 'images/Business.svg');
-  var HumanResorces = new Category('Human Resorces', 'images/Human_Resources.svg');
-  var Engineering = new Category('Engineering', 'images/Tech.png');
-  var Photography = new Category('Photography', 'images/GraphicDesign.svg');
-  var MicrosoftTools = new Category('Microsoft Tools', 'images/Tech.png');
+  var ComputerScience = new Category('Computer Science', 'images/ComputerScience.png');
+  var English = new Category('English Language', 'images/English.png');
+  var GrapghicDesign = new Category('Grapghic Design', 'images/GrapghicDesign.png');
+  var BussinseMarkting = new Category('Bussinse & Markting', 'images/BussinseMarkting.png');
+  var HumanResources = new Category('Human Resorces', 'images/HumanResorces.png');
+  var Engineering = new Category('Engineering', 'images/Engineering.png');
+  var Photography = new Category('Photography', 'images/Photography.png');
+  var MicrosoftTools = new Category('Microsoft Tools', 'images/MicrosoftTools.png');
 
 
 
-  var cs = new Course('Cs050', 'ComputerScience', 'https://css-tricks.com/forums/topic/adding-href-to-button/', 'images/Tech.png', 'This module aims to provide an overvieThis module aims to provide an overview of the basicThis module aims to provide an overview of the basicThis module aims to provide an overview of the basicThis module aims to provide an overview of the basicThis module aims to provide an overview of the basicThis module aims to provide an overview of the basicThis module aims to provide an overview of the basicw of the basic concepts of discrete mathematics which are relevant in the field of Computer Science. The topics covered includeThis module aims to provide an overview of the basic concepts of discrete mathematics which are relevant in the field of Computer Science. The topics covered include', 'Computer code , computer hardware , Computer security', 'coursera', '1');
-  var cs1 = new Course('Cs050 inter', 'ComputerScience', 'https://online.stanford.edu/lagunita-learning-platform', 'images/Tech.png', 'desss', 'Computer code , computer hardware , Computer security', 'coursera', '2');
-  var cs2 = new Course('DBA', 'ComputerScience', 'https://online.stanford.edu/lagunita-learning-platform', 'images/Tech.png', 'desss', 'Computer code , computer hardware , Computer security', 'coursera', '1');
+  var cs = new Course('Computer Science CS050', 'ComputerScience', 'https://lagunita.stanford.edu/courses/Engineering/CS101/Summer2014/about', 'images/itroduction_to_computer_science.svg', 'This is CS50x , Harvard University introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike, with or without prior programming experience. An entry-level course taught by David J. Malan, CS50x teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation', 'C, Python, SQL, JavaScript plus CSS and HTML', 'EDX', '1');
+  var cs1 = new Course('Discrete Structures', 'ComputerScience', 'https://www.coursera.org/learn/what-is-a-proof', 'images/Discrete_Structures.svg', 'Mathematical thinking is crucial in all areas of computer science: algorithms, bioinformatics, computer graphics, data science, machine learning, etc. In this course, we will learn the most important tools used in discrete mathematics: induction, recursion, logic, invariants, examples, optimality. We will use these tools to answer typical programming questions like: How can we be certain a solution exists? Am I sure my program computes the optimal answer? Do each of these objects meet the given requirements?In the course, we use a try-this-before-we-explain-everything approach: you will be solving many interactive (and mobile friendly) puzzles that were carefully designed to allow you to invent many of the important ideas and concepts yourself.', 'learn basic functions , know how to analyse of recursive functions', 'coursera', '1');
+  var cs2 = new Course('Web Development', 'ComputerScience', 'https://www.coursera.org/specializations/web-applications', 'images/Web_Development.svg', 'This Specialization is an introduction to building web applications for anybody who already has a basic understanding of responsive web design with JavaScript, HTML, and CSS. Web Applications for Everybody is your introduction to web application development. You will develop web and database applications in PHP, using SQL for database creation, as well as functionality in JavaScript, jQuery, and JSON.', 'Jquery,web application development,Hypertext Preprocessor (PHP),JavaScript,MySQL,Html,Cascading Style Sheets (CCS),Phpmyadmin,Relational Database,SQL Create  Read Update And Delete', 'coursera', '2');
   var cs3 = new Course('Cs050', 'ComputerScience', 'https://online.stanford.edu/lagunita-learning-platform', 'images/Tech.png', 'desss', 'Computer code , computer hardware , Computer security', 'coursera', '3');
   var cs4 = new Course('Cs050', 'ComputerScience', 'https://online.stanford.edu/lagunita-learning-platform', 'images/Tech.png', 'desss', 'Computer code , computer hardware , Computer security', 'coursera', '1');
   var cs5 = new Course('Cs050', 'ComputerScience', 'https://online.stanford.edu/lagunita-learning-platform', 'images/Tech.png', 'desss', 'Computer code , computer hardware , Computer security', 'coursera', '1');
@@ -61,6 +61,6 @@ if(localStorage.getItem('CategoryArray')){
 
   BussinseMarkting.addCourse(cs); BussinseMarkting.addCourse(cs1); BussinseMarkting.addCourse(cs2); BussinseMarkting.addCourse(cs3);
 
-  HumanResorces.addCourse(cs5);
+  HumanResources.addCourse(cs5);
 
 }
