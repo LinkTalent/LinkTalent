@@ -39,6 +39,6 @@ function handleClickedCat(event) {
   }else{
     console.log('Nooooooooaccess');
     localStorage.setItem('currentcategory', JSON.stringify(event.target.id));
-    window.open('category.html');
+    window.open('category.html',"_self");
   }
 }

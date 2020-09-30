@@ -70,7 +70,7 @@ function handleClickedCat(event){
   }else{
 
     localStorage.setItem('currentcourse', JSON.stringify(event.target.id));
-    window.open("course.html");
+    window.open("course.html","_self");
 
   }
 }
