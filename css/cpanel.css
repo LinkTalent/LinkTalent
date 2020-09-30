@@ -7,7 +7,9 @@ body{
     margin: 0% 5%;
 }
 /* End Common Styles */
-
+textarea{
+    border-style: none;
+}
 /* Start Header Style*/
 header nav{
     background-color:#4F81B3;
@@ -52,7 +54,7 @@ header ul li a:hover{
 /* Start Main Style */
 main{
     margin: 100px 0px 40px 0px;
-    background: url(../images/contactusbg.jpg);
+    background: url(../images/Formbackground.png);
     background-repeat: no-repeat;
 }
 /* The Form Style */

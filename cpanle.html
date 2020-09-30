@@ -37,12 +37,12 @@
                 <fieldset>
                     <div class="field">
                         <label for="CourseName">Course Name:</label>
-                        <input type="text" id="CourseName">
+                        <input type="text" id="CourseName" style="text-transform: uppercase"  required>
                     </div>
 
                     <div class="field">
                         <label for="CourseCategories">Course Categories</label>
-                        <select id="CourseCategories">
+                        <select id="CourseCategories" required>
                             <option value="0">Computer Science</option>
                             <option value="1">English</option>
                             <option value="2">Grapghic Design</option>
@@ -56,34 +56,36 @@
 
                     <div class="field">
                         <label for="CourseLink">Course Link:</label>
-                        <input type="text" id="CourseLink">
+                        <input type="url" id="CourseLink" required>
                     </div>
 
                     <div class="field">
                         <label for="Courseimage">Course image:</label>
-                        <input type="text" id="Courseimage">
+                        <input type="url" id="Courseimage" required>
                     </div>
 
                     <div class="field">
                         <label for="Coursedesc">Course Description:</label>
-                        <input type="text" id="Coursedesc">
+                        <textarea id="Coursedesc"  rows="4" cols="80" required>
+
+                            </textarea>
                     </div>
 
                     <div class="field">
                         <label for="Courseskills">Course Skills:</label>
-                        <input type="text" id="Courseskills">
+                        <input type="text" id="Courseskills" placeholder=" Sparate Skills with (,) :Skill , Skill , Skill" required>
                     </div>
 
                     <div class="field">
                         <label for="Courseprovider">Course provider:</label>
-                        <input type="text" id="Courseprovider">
+                        <input type="text" id="Courseprovider" required>
                     </div>
 
                     <div class="field">
                         <label>
                             <span>Course Level</span>
                         </label>
-                        <select id="CourseLevel">
+                        <select id="CourseLevel" required>
                             <option value="1">Beginner</option>
                             <option value="2">Intermaidte</option>
                             <option value="3">Advance</option>
