@@ -39,8 +39,8 @@ if(localStorage.getItem('CategoryArray')){
   var GrapghicDesign = new Category('Grapghic Design', 'images/GrapghicDesign.png');
   var BussinseMarkting = new Category('Bussinse & Markting', 'images/BussinseMarkting.png');
   var HumanResources = new Category('Human Resorces', 'images/HumanResorces.png');
-  var Engineering = new Category('Engineering', 'images/Engineering.png');
-  var Photography = new Category('Photography', 'images/Photography.png');
+  var Engineering = new Category('Engineering', 'images/eng.png');
+  var Photography = new Category('Photography', 'images/photog.png');
   var MicrosoftTools = new Category('Microsoft Tools', 'images/MicrosoftTools.png');
 
 

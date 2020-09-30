@@ -23,5 +23,6 @@ function handleSubmit(event) {
   CategoryArray[CourseCategories].addCourse(newCourseAdded);
 
   localStorage.setItem('CategoryArray', JSON.stringify(CategoryArray));
+  window.open("index.html");
   console.log(CategoryArray);
 }
