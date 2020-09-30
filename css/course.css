@@ -168,62 +168,11 @@ section p {
 }
 
 
- 
-.icons,.sectiontitle-design {
-    box-sizing: border-box;
-}
-
-.sectiontitle-design .icons, .service-widgets:hover {
-    background: #ec296b;
-}
-
-.sectiontitle-design .icons {
-    width: 0.5rem;
-    height: 0.5rem;
-    display: inline-block;
-    position: relative;
-    transform: rotate(45deg);
-}
 
 hr{
     width: 15%;
     margin-left: 10px;
 } 
-
-.sectiontitle-design {
-    position: absolute;
-    top: 76.3%;
-    left: 8%;
-}
-
-.icon,.sectiontitle {
-    box-sizing: border-box;
-}
-
-.sectiontitle .icon, .service-widgets:hover {
-    background: #ec296b;
-}
-
-.sectiontitle .icon {
-    width: 0.5rem;
-    height: 0.5rem;
-    display: inline-block;
-    position: relative;
-    transform: rotate(45deg);
-}
-
-hr{
-    width: 15%;
-    margin-left: 10px;
-} 
-
-.sectiontitle{
-    position: absolute;
-    top: 107.1%;
-    left: 8%;
-}
-
-
 
 
 
