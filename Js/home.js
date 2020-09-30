@@ -32,7 +32,7 @@ categories.addEventListener('click', handleClickedCat);
 function handleClickedCat(event) {
   event.preventDefault();
   var eventcategoriesid=event.target.id;
-
+  console.log(eventcategoriesid);
   if(eventcategoriesid ==='categories' || eventcategoriesid===""){
     console.log('Event Click Out side Section');
 

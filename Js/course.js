@@ -20,7 +20,7 @@ var button = document.getElementById('button');
 courseName.textContent=currentcourse.name;
 
 courseDescription.textContent=currentcourse.description;
-
+provider.textContent=' Provide By  :  '+currentcourse.provider;
 
 for (var i = 0; i < skills.length; i++) {
   var li = document.createElement('li');
