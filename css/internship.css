@@ -1,31 +1,15 @@
-/* Start Common Styles*/
+
+
 body{
     padding: 0%;
     margin: 0%;
+    
 }
+
+/* Start Common Styles*/
 .container{
     margin: 0% 5%;
 }
-
-.icons,.sectiontitle-design {
-    box-sizing: border-box;
-}
-.sectiontitle-design .icons, .service-widgets:hover {
-    background: #ec296b;
-}
-.sectiontitle-design .icons {
-    width: 0.5rem;
-    height: 0.5rem;
-    display: inline-block;
-    position: relative;
-    transform: rotate(45deg);
-}
-hr{
-    width: 150px;
-    margin-bottom: 50px;
-    margin-top: -15px;
-    box-shadow: 2px 2px 5px pink;
-} 
 /* Start Common Styles*/
 
 /* Start Header Style*/
@@ -68,26 +52,22 @@ header ul li a:hover{
     color: #D190E2;
     font-weight: bold;
 }
-header #slider{
-    background-image: url("../images/events.png");
+ header .slider{
+    background-image: url("../images/internship1.png");
     background-repeat: no-repeat;
-    height: 520px;
+    height: 500px;
+    width: 100%;
     background-size: cover;
-}
-header #slider h1{
-    font-weight: bold;
-    color: #2B478B;
-    font-family: 'David Libre', serif;
-    position: relative;
-    top: 27%;
-    left: 7%;
-    font-size: 50px;
-}
-/* End Header Style*/
+   
+}  
+/* End Header Style
+
+
+
 
 /* Start Main Style */
 main{
-    margin: 55px 0px 50px 0px;
+    margin: 110px 0px 50px 0px;
 }
 main .publicP{
     color: #0b2f54;
@@ -99,62 +79,63 @@ main .publicP{
 }
 main h1{
     text-align: center;
-    margin: 50px 0px 20px 0px;
+    margin: 50px 0;
     color: #0b2f54;
     font-family: 'David Libre', serif;
-    font-size: 27px;
+    font-size: 22px;
     font-weight: bold;
     text-shadow: 2px 2px 5px pink;
-    word-spacing: 5px;
-    letter-spacing: 4px;
 }
-main .divOfdivs{ 
-    padding-left: 4%;
-}
-main .event{
+main .talker{
     display: inline-block;
-    margin-right: 2%;
-    width: 30%;
-    border: solid 2px #e8e4e4; 
-    border-radius: 5px;     
     box-shadow: 0 3px 3px 0 pink;
+    margin-bottom: 35px;
+    margin-top: 40px;
 }
-main .event:hover{
-    border: solid 2px #e8e4e4; 
-    border-radius: 5px;    
-    box-shadow: 5px 3px 3px 0 #4F81B3;
+main .talker:hover{
+    box-shadow: 0 3px 3px 0 #4F81B3;
 }
-main .event img{
-    width: 200px;
-    height: 200px;
-    display: block;
-    margin: 0px auto;
-    padding: 30px;
+main .talker img{
+    float: left;
+    width: 50%;
 }
-main .event h2{
-    text-align: center;
+main .talker div{
+    float: left;
+    width: 45%;
+    padding-left: 5%;
+}
+main .talker div h2{
+    text-align: left;
     color: #0b2f54;
     font-family: 'David Libre', serif;
     font-weight: bold;
     font-size: 20px;
-    padding: 10px 0px 20px 0px;
+    padding-bottom: 10px;
 }
-main .event h5{
-    text-align: left;
-    color: #0b2f54;
-    font-family: 'David Libre', serif;
+main .talker div p{
     font-size: 18px;
-    padding: 7px;
+    color: #0b2f54;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+main .talker div a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #0b2f54;
+    font-size: 18px;
+}
+main .talker div a:hover{
+    border: 2px solid #4F81B3;
+    box-shadow: 0 3px 3px 0 #4F81B3;
+    padding: 10px;
 }
 
-/* main .event p{
-    font-size: 18px;
-    color: #0b2f54;
-    font-family: 'David Libre', serif;
-    text-align: justify;
-    padding: 10px;
-} */
-/* End Main Stye */
+hr {
+    width: 17%;
+    margin-top: -40px;
+}
+/*end main style */
+
 
 /* Start Footer Style*/
 footer{
